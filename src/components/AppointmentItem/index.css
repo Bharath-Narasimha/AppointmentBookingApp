@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.appointment-cards {
+  list-style-type: none;
+  width: 280px;
+  padding: 10px;
+  border: solid 0.7px #b5b7c4;
+  border-radius: 8px;
+  margin: 11px;
+  margin-left: 0px;
+}
+.appointment-cards-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.para {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 16px;
+  font-weight: bold;
+}
+.appointment-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+.Date {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 16px;
+  margin-top: 0px;
+}

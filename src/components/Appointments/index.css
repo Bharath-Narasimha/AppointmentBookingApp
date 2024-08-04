@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+}
+.card {
+  padding: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointment-card-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px #b5b7c4;
+  padding-bottom: 20px;
+  width: 90%;
+  margin-bottom: 25px;
+}
+.card-1-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-wrap: 0;
+  margin: 10px;
+  margin-left: 0px;
+}
+.search-input {
+  outline: none;
+  padding: 8px;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  border-color: #b5b7c4;
+  margin-bottom: 30px;
+  flex-shrink: 1;
+  width: 200px;
+}
+.label {
+  font-family: Roboto;
+  color: #b5b7c4;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 10px;
+  width: 70px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.image {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .image {
+    display: flex;
+    height: 260px;
+    width: 260px;
+  }
+}
+.appointment-card-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+.head-1 {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  align-self: center;
+}
+@media screen and (min-width:767px){
+  .head-1{
+    font-size: 24px;
+  }
+}
+.button-1 {
+  width: 70px;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+  height: 30px;
+  align-self: center;
+}
+.unorder-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 90%;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
